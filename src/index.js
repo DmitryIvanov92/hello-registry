@@ -1,9 +1,6 @@
-function sumHelper(a, b) {
-    return a + b;
+function writeHelloGithubPackageRegistry(){
+    console.log("Hey Github Package Registry!!");
+    return;
 }
 
-module.exports = {
-    sum: function() {
-        return Array.prototype.slice.call(arguments).reduce(sumHelper, 0);
-    }
-};
+module.exports = { writeHelloGithubPackageRegistry };
