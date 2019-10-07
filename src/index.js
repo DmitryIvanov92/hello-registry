@@ -1,6 +1,7 @@
 function writeHelloGithubPackageRegistry(){
-    console.log("Hey Github Package Registry!!");
-    return;
+    const msg = "Hey Github Package Registry!!";
+    console.log(msg);
+    return msg;
 }
 
 module.exports = { writeHelloGithubPackageRegistry };
